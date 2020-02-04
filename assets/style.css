@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Concert One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Concert One'), local('ConcertOne-Regular'), url('../assets/concert_one.woff') format('woff');
+}
+* {	margin: 0; padding:0; }
+#wrapper { }
+#canvas { width: 800px; height: 600px; background: url('../assets/bg.png') no-repeat; /*border: 1px solid black;*/ }
+#credits { position: absolute; font-family: 'Concert One', cursive; font-size: 10px; margin-top: -42px; padding: 10px; width: 780px; color: grey; }
+#credits a { color: #666; display: inline-block; line-height: 20px; }
